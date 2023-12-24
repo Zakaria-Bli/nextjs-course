@@ -1,11 +1,5 @@
 import React from "react"
-import { UserButton } from "@clerk/nextjs"
 
 export default function Home() {
-  return (
-    <div>
-      <UserButton afterSignOutUrl="/" />
-      Home
-    </div>
-  )
+  return <div></div>
 }
